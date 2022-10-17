@@ -1,0 +1,77 @@
+/* link to first icon: <a href="https://iconscout.com/icons/location" target="_blank">Location Icon</a> by <a href="https://iconscout.com/contributors/jemismali">Jemis Mali</a> on <a href="https://iconscout.com">IconScout</a>
+link to second icon: <a href="https://iconscout.com/icons/toast" target="_blank">Toast Icon</a> by <a href="https://iconscout.com/contributors/pause08">Notachai Plukjaisuea</a> on <a href="https://iconscout.com">IconScout</a>;
+link to third icon: <a href="https://iconscout.com/icons/pinata" target="_blank">Pinata Icon</a> by <a href="https://iconscout.com/contributors/phonlaphat-thongsriphong" target="_blank">PHATPLUS</a> 
+link to fourth icon: <a href="https://iconscout.com/icons/coffee" target="_blank">Coffee Icon</a> by <a href="https://iconscout.com/contributors/iconscout">IconScout Store</a> on <a href="https://iconscout.com">IconScout</a>
+Link to fifth icon: <a href="https://iconscout.com/icons/mexico" target="_blank">Mexico Icon</a> by <a href="https://iconscout.com/contributors/just-icon" target="_blank">Just Icon</a>*/
+
+* {
+	background-color: whitesmoke;
+
+}
+
+h1 {
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	color: red;
+}
+
+h4 {
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+}
+
+div {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.description {
+	background-color: lightgreen;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: solid;
+	font-family: Courier, monospace;
+	font-size: 20px;
+}
+
+.photos {
+	max-width: 50%;
+	max-height: auto;
+	margin: 20px;
+	border-style: solid;
+}
+
+.icon {
+	max-width: 50%;
+	max-height: auto;
+	border-style: solid;
+	margin: 20px;
+}
+
+
+a {
+	background-color: lightgreen;
+}
+
+container1 {
+	display: flex;
+}
+
+container2 {
+	display: flex;
+}
+
+container3 {
+	display: flex;
+}
+
+container4 {
+	display: flex;
+}
+
+container5 {
+	display: flex;
+}
+
