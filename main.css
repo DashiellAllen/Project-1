@@ -1,0 +1,122 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+/* The style below is for my title */
+h1 {
+	display: block;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	color: red;
+	margin-left:5%;
+	margin-right: 5%;
+}
+
+/* This code is for my byline and the date */
+h4 {
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+}
+
+/* This code refers to the sources at the bottom. I made the margin-top 1%
+so there would be less space between the lines. */
+
+h6 {
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	margin-bottom:2%;
+	margin-top:1%;
+}
+
+/* This creates padding space between my descriptions
+and the edge of the page. */
+
+.icon-descriptions {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/* This is the style for the icon descriptions. */
+
+.description {
+	background-color: lightgreen;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border-style: solid;
+	font-family: Courier, monospace;
+}
+
+.photos {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	border-style: solid;
+	align-items: center;
+
+}
+
+.icon {
+	display: block;
+	max-width: 50%;
+	max-height: auto;
+	border-style: solid;
+	margin: 5%;
+	align-items: left;
+}
+
+
+figcaption {
+	text-align: center;
+	font-family:Trebuchet MS, sans-serif;
+
+}
+
+.textlink {
+	background-color: lightgreen;
+}
+
+/* These rules apply when viewing the site on a desktop
+or other screan with a width greater than 681 pixels. 
+I used flex box to place the icons and text in line 
+with each other. */
+
+@media(min-width: 681px) {
+
+.container1 {
+	display: flex;
+}
+
+.container2 {
+	display: flex;
+}
+
+.container3 {
+	display: flex;
+}
+
+.container4 {
+	display: flex;
+}
+
+.container5 {
+	display: flex;
+}
+
+.photos {
+	max-width: 60%;
+	max-height: auto;
+}
+
+.description {
+	font-size: 20px;
+}
+}
